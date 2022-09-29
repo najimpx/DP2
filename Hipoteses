@@ -2,6 +2,12 @@
 307 - Sticks
 
 Hipótese 1: Dar um Sort nos sticks e verificar se o maior é formado com os outros sticks, senão maior mais menor, senão maior com segundo menor.
+          tira Maior da Lista
+          Menor+SegundoMenor != maior
+          next
+          Menor+TerceiroMenor = maior
+                    RECURSAO
+          
           Falha ( não leva em conta as somas irregulares e pouco eficiente)
           
 Hipótese 2: Dar um Sort nos sticks e verificar se o maior é formado com os outros sticks, senão maior mais menor, senão maior com segundo menor.
