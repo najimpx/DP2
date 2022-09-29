@@ -11,7 +11,7 @@ Hipótese 1: Dar um Sort nos sticks e verificar se o maior é formado com os out
           Falha ( não leva em conta as somas irregulares e pouco eficiente)
           
 Hipótese 2: Dar um Sort nos sticks e verificar se o maior é formado com os outros sticks, senão maior mais menor, senão maior com segundo menor.
-          Tira maior da Lista.
+          Primeira chamada no Main Tira maior da Lista.
           Soma de menor até menor+segundoMenor + terceiroMenor+... = Maior
           Se igual
                     tira da lista menor+segundoMenor + terceiroMenor+...
@@ -20,6 +20,7 @@ Hipótese 2: Dar um Sort nos sticks e verificar se o maior é formado com os out
                               Senao achar RECURSAO acaba
           menor+terceiroMenor+..... = Maior
           Se não achar
+                    Recursao acaba, volta para chamada inicial no Main
                     objetivo Maior+Menor
                               Tira Maior e menor da lista
                                Soma de menor até segundoMenor + terceiroMenor+... = Maior+Menor
